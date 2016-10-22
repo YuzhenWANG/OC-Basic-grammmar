@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		096176761D9414CA00420FCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 096176751D9414CA00420FCE /* main.m */; };
+		0961767E1D9415A300420FCE /* ZHQRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0961767D1D9415A300420FCE /* ZHQRectangle.m */; };
+		096176811D9417A000420FCE /* ZHQSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 096176801D9417A000420FCE /* ZHQSquare.m */; };
+		096176841D9418D300420FCE /* ZHQCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 096176831D9418D300420FCE /* ZHQCircle.m */; };
+		096176871D941A4500420FCE /* ZHQTriangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 096176861D941A4500420FCE /* ZHQTriangle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		096176721D9414CA00420FCE /* 图形 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "图形"; sourceTree = BUILT_PRODUCTS_DIR; };
 		096176751D9414CA00420FCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0961767C1D9415A300420FCE /* ZHQRectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHQRectangle.h; sourceTree = "<group>"; };
+		0961767D1D9415A300420FCE /* ZHQRectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHQRectangle.m; sourceTree = "<group>"; };
+		0961767F1D9417A000420FCE /* ZHQSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHQSquare.h; sourceTree = "<group>"; };
+		096176801D9417A000420FCE /* ZHQSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHQSquare.m; sourceTree = "<group>"; };
+		096176821D9418D300420FCE /* ZHQCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHQCircle.h; sourceTree = "<group>"; };
+		096176831D9418D300420FCE /* ZHQCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHQCircle.m; sourceTree = "<group>"; };
+		096176851D941A4500420FCE /* ZHQTriangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHQTriangle.h; sourceTree = "<group>"; };
+		096176861D941A4500420FCE /* ZHQTriangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHQTriangle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				096176751D9414CA00420FCE /* main.m */,
+				0961767F1D9417A000420FCE /* ZHQSquare.h */,
+				096176801D9417A000420FCE /* ZHQSquare.m */,
+				0961767C1D9415A300420FCE /* ZHQRectangle.h */,
+				0961767D1D9415A300420FCE /* ZHQRectangle.m */,
+				096176821D9418D300420FCE /* ZHQCircle.h */,
+				096176831D9418D300420FCE /* ZHQCircle.m */,
+				096176851D941A4500420FCE /* ZHQTriangle.h */,
+				096176861D941A4500420FCE /* ZHQTriangle.m */,
 			);
 			path = "图形";
 			sourceTree = "<group>";
@@ -119,6 +139,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				096176761D9414CA00420FCE /* main.m in Sources */,
+				0961767E1D9415A300420FCE /* ZHQRectangle.m in Sources */,
+				096176811D9417A000420FCE /* ZHQSquare.m in Sources */,
+				096176841D9418D300420FCE /* ZHQCircle.m in Sources */,
+				096176871D941A4500420FCE /* ZHQTriangle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
